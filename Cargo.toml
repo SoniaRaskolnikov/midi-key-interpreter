@@ -1,0 +1,14 @@
+[package]
+name = "midi-key-interpreter"
+version = "0.1.0"
+authors = ["Zachariah Jones <zachariahdjones@gmail.com>"]
+edition = "2021"
+
+description = "Simple program that controls pianos in games by simulating keyboard controls from live midi input"
+
+[dependencies]
+bimap = "0.6.3"
+midir = "0.9.1"
+enigo = "0.1.2"
+inputbot = "0.5"
+lazy_static = "1.4.0"
